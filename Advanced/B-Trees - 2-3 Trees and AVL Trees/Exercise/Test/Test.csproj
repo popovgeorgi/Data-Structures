@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\01.Hierarchy\01.Hierarchy.csproj" />
+    <ProjectReference Include="..\02.Two-Three\02.Two-Three.csproj" />
+    <ProjectReference Include="..\03.AVL\03.AVL.csproj" />
+  </ItemGroup>
+
+</Project>
